@@ -4,8 +4,11 @@ import SearchBar from './components/SearchBar';
 
 function App() {
   return (
-    <div className="landing-search">
-      <SearchBar />
+    <div>
+      <p>Blockchain Explorer</p>
+      <div className="landing-search">
+        <SearchBar />
+      </div>
     </div>
     // <div className="App">
     //   <header className="App-header">
